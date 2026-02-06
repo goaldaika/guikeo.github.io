@@ -6,49 +6,53 @@
     
     MESSAGES = [];
 
+    MESSAGES = [];
     MESSAGES.push({
       delay: 0,
-      text: "Mặc dù anh không hề nói ra, nhưng từ lúc tụi mình quen nhau cho tới tận bây giờ, không có lúc nào là anh không nghĩ tới em. Khi tụi mình chia tay, anh vẫn luôn âm thầm và tìm cách dõi theo em, mong muốn biết thêm về cuộc sống của em  sau khi mối quan hệ của tụi mình chấm dứt. Anh cảm thấy tự hào khi thấy em tốt nghiệp cao đẳng, cảm thấy nhẹ nhõm khi biết được cuối cùng em cũng được yêu."
-    });
-    MESSAGES.push({
-      delay: 7000,
-      text: "Và anh cũng nghĩ là em biết, em biết là anh lẵng lặng theo dõi em, có lẽ em nghĩ là anh chỉ theo dõi em 1 thời gian ngắn thôi, nhưng thực chất, anh quan sát sự trưởng thành của em trong im lặng, qua nhưng gì em đưa lên mạng, anh nhìn thấy em đi chơi, đi ăn, có những bộ đồ đẹp, những kiểu tóc mới, và anh hạnh phúc cho em, anh cũng quan sát cả sự trưởng thành và lớn lên của Cún với Phương trong những bức ảnh mà em đăng."
-    });
-    MESSAGES.push({
-      delay: 15000,
-      text: "Khi anh biết rằng mình có thể về nước vào lần đầu tiên, anh ngay lập tức muốn gặp em. Khi anh biết rằng mình sẽ về nước và định cư trong nước, anh ngay lập tức tỏ tình lại với em. Trong suốt khoảng thời gian mấy năm ở nước ngoài, khi nhắt tới Việt Nam, anh ngay lập tức nghĩ đến em."
-    });
-    MESSAGES.push({
-      delay: 23000,
-      text: "Em có thể không tin, và anh cũng không thể làm gì để chứng minh cho em tin, nhưng tình cảm của anh dành cho em luôn luôn tồn tại, anh luôn muốn nuông chiều và yêu thương em, làm em vui, và giúp em phát triển. Em luôn khen anh, đề cao anh, và luôn cho anh biết rằng anh là một người tài giỏi đến thế nào. Một lần nữa, anh không thể chứng minh được cho em lời nói của anh, nhưng anh hứa với em là anh luôn muốn đem sự tài giỏi đó của anh để phục vụ cho em và làm em được hạnh phúc. "
-    });
-    MESSAGES.push({
-      delay: 32000,
-      text: "Và rồi tụi mình gặp nhau, đi chơi với nhau, nắm tay, ôm nhau, hôn nhau, và thân mật với nhau theo rất nhiều cách, sau tất cả những việc đó, làm sao anh có thể làm bạn được với em hả em. Làm sao anh có thể đi với em mà không hôn em, hay không ôm em. Em nói rằng tụi mình vẫn có thể nắm tay nhau và đi chơi với nhau, nhưng em ơi, tâm trí của anh sẽ dày vò anh vì anh biết rằng, ngay cả khi anh nắm tay em và đi chơi với em, em lại đang nghĩ về người khác và muốn được nắm tay người khác, nếu như chỉ là bạn bè thì cũng không có gì đáng nói, nhưng làm sao anh có thể xem em là bạn được nữa hả em."
-    });
-    MESSAGES.push({
-      delay: 40000,
-      text: "Em nói rằng em đã cho anh 1 cơ hội thứ 2 vào đầu năm ngoái, nhưng em ơi, lúc đấy anh không có tài sản, tương lai của anh thì chưa rõ ràng, làm sao anh nỡ nhìn người anh yêu bị anh làm tổn thương suốt ngày tháng thêm 1 lần nữa được hả em. Em đã gặp mẹ anh, và cũng là toàn bộ gia đình anh, em đã đến nhà anh, và cũng đã biết được về tài sản mà gia đình anh có, những gì em thấy, thật sự là toàn bộ những gì anh có, chính xác đến từng thứ, không có gì bị giấu đi, đó là tất những gì đã được dùng để nuôi anh lớn và cũng là những thứ sẽ tiếp tục đi cùng anh tới sau này."
-    });
-    MESSAGES.push({
-      delay: 50000,
-      text: "Như em đã nói với anh, anh có tinh tế, anh nuông chiều, cưng nựng và yêu thương em hết khả năng của anh, và bản thân anh thực sự thấy vui và hạnh phúc khi em thích sự quan tâm và chăm sóc của anh. Và cũng như em đã nói, anh có sự thực tế nhưng anh thiếu đi kinh tế, dù cho có ham muốn tới mức nào, anh chỉ có thể cho em những gì anh có, nhưng làm sao anh có thể cho em cả những thứ mà hiện tại anh chưa thể có được hả em. "
-    });
-    MESSAGES.push({
-      delay: 62000,
-      text: "Đây là nhưng lời cuối cùng mà anh muốn nói với em, anh đã dự định sẽ cho em biết vào lần tới mình đi chơi với nhau, nhưng mỗi ngày trôi qua là mỗi ngày mà anh cảm thấy bị dày vò, vì anh nhớ em, anh muốn âu yếm và ở bên em, anh muốn gặp em và bù đắp cho em tất cả những tổn thương mà anh đã gây ra cho em dù vô tình hay cố ý, nhưng anh không thể, anh không có quyền, và anh cũng không còn cơ hội nào nữa, mỗi lần câu nói 'anh không phải bồ em' dc cất tiếng là mỗi lần trái tim anh bị đâm 1 nhát dao, và giất ngủ của anh cũng bị ảnh hưởng theo mỗi ngày. Anh sẽ chấm dứt toàn bộ mối quan hệ giữa hai tụi mình, anh không thể tiếp tục nói chuyện với em hay gặp em hay tiếp xúc với em theo bất kỳ cách nào, vì nó sẽ chỉ ăn mòn tinh thần của anh mỗi ngày mỗi nghiêm trọng hơn. "
-    });
-    MESSAGES.push({
-      delay: 75000,
-      text: "Anh không ghét em hay giận em, hoàn toàn không một tí nào, có lẻ ghét em sẽ làm anh cảm thấy tốt hơn, nhưng làm sao anh có thể ghét người mà anh yêu được hả em. Anh đã hứa em với em là sẽ dạy em tiếng Anh, sẽ đi chùa với em, sẽ uống rựu cùng em, sẽ cưới em vào năm em 28 tuổi, nhưng bây giờ, nếu anh thực hiện những lời hứa ấy thì cũng tức là anh sẽ từ từ giết chết bản thân anh mà thôi. Anh xin lỗi em, anh thực sự xin lỗi, nhưng anh phải thất hứa với em rồi."
-    });
-    MESSAGES.push({
-      delay: 87000,
-      text: "Anh sẽ luôn nhớ về em, anh biết rằng anh sẽ không thể quên em, làm sao anh có thể quên được người mà anh yêu hả em. Mãi mãi cho đến sau này, khi em có gia đình và con cái, khi em đột nhiên nghĩ đến anh trong lúc đang bán thuốc hoặc đang nấu ăn cho gia đình của em, và khi em thắc mắc rằng liệu anh có còn nhớ về em, câu trả lời sẽ luôn luôn là có."
-    });
-    MESSAGES.push({
-      delay: 102000,
-      text: "Lời của anh kết thúc tại đây, anh mong rằng anh sẽ không bao giờ vô tình gặp lại em, người mà anh yêu."});
+      text: "Anh nhớ em quà chời mà em không chịu gọi cho anh :(("});
+    // MESSAGES.push({
+    //   delay: 0,
+    //   text: "Mặc dù anh không hề nói ra, nhưng từ lúc tụi mình quen nhau cho tới tận bây giờ, không có lúc nào là anh không nghĩ tới em. Khi tụi mình chia tay, anh vẫn luôn âm thầm và tìm cách dõi theo em, mong muốn biết thêm về cuộc sống của em  sau khi mối quan hệ của tụi mình chấm dứt. Anh cảm thấy tự hào khi thấy em tốt nghiệp cao đẳng, cảm thấy nhẹ nhõm khi biết được cuối cùng em cũng được yêu."
+    // });
+    // MESSAGES.push({
+    //   delay: 7000,
+    //   text: "Và anh cũng nghĩ là em biết, em biết là anh lẵng lặng theo dõi em, có lẽ em nghĩ là anh chỉ theo dõi em 1 thời gian ngắn thôi, nhưng thực chất, anh quan sát sự trưởng thành của em trong im lặng, qua nhưng gì em đưa lên mạng, anh nhìn thấy em đi chơi, đi ăn, có những bộ đồ đẹp, những kiểu tóc mới, và anh hạnh phúc cho em, anh cũng quan sát cả sự trưởng thành và lớn lên của Cún với Phương trong những bức ảnh mà em đăng."
+    // });
+    // MESSAGES.push({
+    //   delay: 15000,
+    //   text: "Khi anh biết rằng mình có thể về nước vào lần đầu tiên, anh ngay lập tức muốn gặp em. Khi anh biết rằng mình sẽ về nước và định cư trong nước, anh ngay lập tức tỏ tình lại với em. Trong suốt khoảng thời gian mấy năm ở nước ngoài, khi nhắt tới Việt Nam, anh ngay lập tức nghĩ đến em."
+    // });
+    // MESSAGES.push({
+    //   delay: 23000,
+    //   text: "Em có thể không tin, và anh cũng không thể làm gì để chứng minh cho em tin, nhưng tình cảm của anh dành cho em luôn luôn tồn tại, anh luôn muốn nuông chiều và yêu thương em, làm em vui, và giúp em phát triển. Em luôn khen anh, đề cao anh, và luôn cho anh biết rằng anh là một người tài giỏi đến thế nào. Một lần nữa, anh không thể chứng minh được cho em lời nói của anh, nhưng anh hứa với em là anh luôn muốn đem sự tài giỏi đó của anh để phục vụ cho em và làm em được hạnh phúc. "
+    // });
+    // MESSAGES.push({
+    //   delay: 32000,
+    //   text: "Và rồi tụi mình gặp nhau, đi chơi với nhau, nắm tay, ôm nhau, hôn nhau, và thân mật với nhau theo rất nhiều cách, sau tất cả những việc đó, làm sao anh có thể làm bạn được với em hả em. Làm sao anh có thể đi với em mà không hôn em, hay không ôm em. Em nói rằng tụi mình vẫn có thể nắm tay nhau và đi chơi với nhau, nhưng em ơi, tâm trí của anh sẽ dày vò anh vì anh biết rằng, ngay cả khi anh nắm tay em và đi chơi với em, em lại đang nghĩ về người khác và muốn được nắm tay người khác, nếu như chỉ là bạn bè thì cũng không có gì đáng nói, nhưng làm sao anh có thể xem em là bạn được nữa hả em."
+    // });
+    // MESSAGES.push({
+    //   delay: 40000,
+    //   text: "Em nói rằng em đã cho anh 1 cơ hội thứ 2 vào đầu năm ngoái, nhưng em ơi, lúc đấy anh không có tài sản, tương lai của anh thì chưa rõ ràng, làm sao anh nỡ nhìn người anh yêu bị anh làm tổn thương suốt ngày tháng thêm 1 lần nữa được hả em. Em đã gặp mẹ anh, và cũng là toàn bộ gia đình anh, em đã đến nhà anh, và cũng đã biết được về tài sản mà gia đình anh có, những gì em thấy, thật sự là toàn bộ những gì anh có, chính xác đến từng thứ, không có gì bị giấu đi, đó là tất những gì đã được dùng để nuôi anh lớn và cũng là những thứ sẽ tiếp tục đi cùng anh tới sau này."
+    // });
+    // MESSAGES.push({
+    //   delay: 50000,
+    //   text: "Như em đã nói với anh, anh có tinh tế, anh nuông chiều, cưng nựng và yêu thương em hết khả năng của anh, và bản thân anh thực sự thấy vui và hạnh phúc khi em thích sự quan tâm và chăm sóc của anh. Và cũng như em đã nói, anh có sự thực tế nhưng anh thiếu đi kinh tế, dù cho có ham muốn tới mức nào, anh chỉ có thể cho em những gì anh có, nhưng làm sao anh có thể cho em cả những thứ mà hiện tại anh chưa thể có được hả em. "
+    // });
+    // MESSAGES.push({
+    //   delay: 62000,
+    //   text: "Đây là nhưng lời cuối cùng mà anh muốn nói với em, anh đã dự định sẽ cho em biết vào lần tới mình đi chơi với nhau, nhưng mỗi ngày trôi qua là mỗi ngày mà anh cảm thấy bị dày vò, vì anh nhớ em, anh muốn âu yếm và ở bên em, anh muốn gặp em và bù đắp cho em tất cả những tổn thương mà anh đã gây ra cho em dù vô tình hay cố ý, nhưng anh không thể, anh không có quyền, và anh cũng không còn cơ hội nào nữa, mỗi lần câu nói 'anh không phải bồ em' dc cất tiếng là mỗi lần trái tim anh bị đâm 1 nhát dao, và giất ngủ của anh cũng bị ảnh hưởng theo mỗi ngày. Anh sẽ chấm dứt toàn bộ mối quan hệ giữa hai tụi mình, anh không thể tiếp tục nói chuyện với em hay gặp em hay tiếp xúc với em theo bất kỳ cách nào, vì nó sẽ chỉ ăn mòn tinh thần của anh mỗi ngày mỗi nghiêm trọng hơn. "
+    // });
+    // MESSAGES.push({
+    //   delay: 75000,
+    //   text: "Anh không ghét em hay giận em, hoàn toàn không một tí nào, có lẻ ghét em sẽ làm anh cảm thấy tốt hơn, nhưng làm sao anh có thể ghét người mà anh yêu được hả em. Anh đã hứa em với em là sẽ dạy em tiếng Anh, sẽ đi chùa với em, sẽ uống rựu cùng em, sẽ cưới em vào năm em 28 tuổi, nhưng bây giờ, nếu anh thực hiện những lời hứa ấy thì cũng tức là anh sẽ từ từ giết chết bản thân anh mà thôi. Anh xin lỗi em, anh thực sự xin lỗi, nhưng anh phải thất hứa với em rồi."
+    // });
+    // MESSAGES.push({
+    //   delay: 87000,
+    //   text: "Anh sẽ luôn nhớ về em, anh biết rằng anh sẽ không thể quên em, làm sao anh có thể quên được người mà anh yêu hả em. Mãi mãi cho đến sau này, khi em có gia đình và con cái, khi em đột nhiên nghĩ đến anh trong lúc đang bán thuốc hoặc đang nấu ăn cho gia đình của em, và khi em thắc mắc rằng liệu anh có còn nhớ về em, câu trả lời sẽ luôn luôn là có."
+    // });
+    // MESSAGES.push({
+    //   delay: 102000,
+    //   text: "Lời của anh kết thúc tại đây, anh mong rằng anh sẽ không bao giờ vô tình gặp lại em, người mà anh yêu."});
 
     $container = $("#container");
 
